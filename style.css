@@ -46,6 +46,14 @@ body{
     border-radius: 8px;
 }
 
+.primary-btn:hover{
+    border: 1px solid #006A50;
+    color: #006A50;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
 
 /* ==========nav css=========== */
 
@@ -127,4 +135,54 @@ header nav input{
 
 .pillar-items p{
     margin-top: 12px;
+}
+
+/*===============vision of future css===================== */
+
+.Vision-of-Future h1{
+    margin-bottom: 24px;
+}
+.Vision-of-Future p{
+    margin-bottom: 32px;
+}
+.vision-items-main{
+    display: flex;
+    justify-content: space-between;
+}
+.vision-items{
+    width: 27%;
+    height: auto;
+    padding: 32px;
+}
+.Vision-of-Future .vision-items h4{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.Vision-of-Future .vision-items button{
+    font-size: 16px;
+}
+.Vision-of-Future .vi-one{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 1px solid #5490F5;
+    border-radius: 16px;
+}
+.Vision-of-Future .vi-two{
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid #09A15C;
+    border-radius: 16px;
+}
+.Vision-of-Future .vi-three{
+    background-color: rgba(247, 235, 207, 1);
+    border: 1px solid #FFC239;
+    border-radius: 16px;
+}
+.Vision-of-Future .vi-one button{
+    background-color: rgba(84, 144, 245, 1);
+}
+.Vision-of-Future .vi-two button{
+    margin-top: 20px;
+}
+.Vision-of-Future .vi-three button{
+    background-color: rgba(255, 194, 57, 1);
 }
