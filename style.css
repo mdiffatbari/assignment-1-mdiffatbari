@@ -283,6 +283,7 @@ header nav input:hover{
 }
 .recent-news-inner-main{
     display: flex;
+    align-items: center;
     padding: 48px;
     background-color: #FFFFFF;
     border-radius: 24px;
@@ -415,6 +416,8 @@ footer{
 .footer-main h1{
     border-bottom: 1px solid rgba(14, 14, 14, 0.1);
     padding: 0 0 32px 0;
+    color: rgba(14, 14, 14, 1);
+    font-size: 32px;
 }
 .footer-icon img{
     padding: 10px;
