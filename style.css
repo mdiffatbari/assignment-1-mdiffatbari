@@ -56,7 +56,6 @@ body{
     color: #006A50;
     background-color: white;
     cursor: pointer;
-    box-sizing: border-box;
 }
 
 
@@ -98,9 +97,6 @@ header nav input{
     font-size: 40px;
     margin-top: 16px;
     margin-bottom: 24px;
-}
-.hero-section input{
-    
 }
 .hero-section .left-content{
     padding: 0 56px;
@@ -252,6 +248,9 @@ header nav input{
     padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+.donate-today-amount h1:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
 .donate-today-amount{
     width: 85%;
     margin: 0 auto;
@@ -273,4 +272,44 @@ header nav input{
     display: block;
     margin-top: 32px;
     
+}
+.donate-today-amount .donate-focus{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+/* ==============Subscribe Newsletter Section============== */
+
+.Subscribe-Newsletter{
+    margin-top: 80px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 80px 100px;
+}
+.Subscribe-Newsletter-main{
+    text-align: center;
+}
+.Subscribe-Newsletter-main h1{
+    margin-bottom: 16px;
+}
+.Subscribe-Newsletter-main .sn-description{
+    margin: 0 auto;
+    margin-bottom: 24px;
+    width: 60%;
+}
+.Subscribe-Newsletter-main .sn-des-last{
+    margin-top: 24px;
+}
+.subscribe-input-field{
+    display: flex;
+    justify-content: center;
+}
+.sn-email-input{
+    padding: 18px 40px;
+    width: 600px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+.sn-email-btn{
+    padding: 18px 40px;
+    border-radius: 0px 8px 8px 0;
 }
