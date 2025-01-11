@@ -73,6 +73,7 @@ main{
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -222,10 +223,53 @@ header nav input:hover{
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
 }
-.quote-main-speach{
+.quote-main-speech{
     color: rgba(14, 14, 14, 0.8);
 }
 
+/* =========Opinion Section============= */
+
+.opinion-main-heading{
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.opinion-inner{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+}
+.opinion-heading{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.opinion-heading h5{
+    font-size: 20px;
+    color: opinion-heading;
+}
+
+.opinion-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+.opinion-options p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 1);
+}
+.opinion-options button{
+    padding: 10px 14px;
+    background-color: #C6E4D6;
+    border-radius: 4px;
+}
+.opinion-options button:hover{
+    background-color: #FFFFFF;
+}
 
 /* =========Recent News Section============= */
 .recent-news{
@@ -374,4 +418,7 @@ footer{
 .footer-icon img{
     padding: 10px;
     margin-top: 32px;
+}
+.footer-icon img:hover{
+    cursor: pointer;
 }
