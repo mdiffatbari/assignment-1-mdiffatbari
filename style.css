@@ -16,6 +16,10 @@ body{
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 .primary-heading{
     font-weight: 700;
@@ -44,6 +48,7 @@ body{
     color: #FFFFFF;
     padding: 17px 34px;
     border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .primary-btn:hover{
@@ -220,4 +225,52 @@ header nav input{
 .recent-news-inner-two .inner-two-img{
     margin-right: 0;
     margin-left: 32px;
+}
+
+/* ================Donate Today Section============== */
+.donate-today-section{
+    margin-top: 80px;
+}
+.donate-today-amount{
+    display: flex;
+    justify-content: space-between;
+}
+.donate-today-section input{
+    width: 100%;
+}
+.dt-main-heading{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.dt-main-text{
+    width: 87%;
+    margin: 0 auto;
+}
+.donate-today-amount h1{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate-today-amount{
+    width: 85%;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+.dt-other-amount{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+.donate-today-section input::placeholder{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate-today-section button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 32px;
+    
 }
