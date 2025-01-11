@@ -186,3 +186,38 @@ header nav input{
 .Vision-of-Future .vi-three button{
     background-color: rgba(255, 194, 57, 1);
 }
+
+/* =========Recent News Section============= */
+.recent-news{
+    margin-top: 80px;
+}
+.recent-news h1{
+    margin-bottom: 24px;
+}
+.recent-news p{
+    margin-bottom: 32px;
+}
+.recent-news-inner-main{
+    display: flex;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.news-inner-title .rn-date{
+    margin-right: 12px;
+}
+.recent-news-inner-main .inner-main-image{
+    border-radius: 24px;
+    margin-right: 32px;
+}
+.recent-news-logo{
+    margin-bottom: 12px;
+}
+.recent-news-inner-two{
+    flex-direction: row-reverse;
+}
+.recent-news-inner-two .inner-two-img{
+    margin-right: 0;
+    margin-left: 32px;
+}
