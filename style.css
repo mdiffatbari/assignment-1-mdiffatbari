@@ -11,12 +11,11 @@
 body{
     background-color: #F5F5F5;
     font-family: Fira Sans;
-    max-width: 1600px;
+    max-width: 1280px;
+    margin: 0 auto;
+
 }
 
-.inner-width{
-    margin: 0px 160px;
-}
 
 .primary-heading{
     font-weight: 700;
@@ -34,6 +33,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
 }
 
 .primary-btn{
@@ -72,6 +72,7 @@ header nav input{
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
+    justify-content: space-between;
 }
 
 .hero-section p{
@@ -87,4 +88,43 @@ header nav input{
 }
 .hero-section input{
     
+}
+.hero-section .left-content{
+    padding: 0 56px;
+}
+.hero-section .right-image img{
+    width: 474px;
+    height: auto;
+}
+
+
+/*===============Pillar section css===================== */
+
+.pillars-main{
+    margin: 80px 0px;
+}
+.pillar-items-main{
+    display: flex;
+    justify-content: space-between;
+}
+.pillars-main h1{
+    margin-bottom: 32px;
+}
+.pillar-items{
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    margin-right: 24px;
+    width: 20%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-items h4{
+ margin-top: 24px;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.pillar-items p{
+    margin-top: 12px;
 }
